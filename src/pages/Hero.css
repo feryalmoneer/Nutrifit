@@ -1,0 +1,30 @@
+.Hero {
+  margin: 5rem 0;
+  background: url(/public/hero.png) no-repeat center;
+  width: 100%;
+  background-size:contain;
+}
+
+.Hero .container
+{height: 100vh;
+  z-index: 9;
+  position: relative;
+
+}
+
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 39px;
+  display: flex;
+    margin-left: 50px;
+    color: black;
+}
+.con  {
+  padding-left: 850px;
+}
+.b{
+  margin-left: 800px;
+  align-items: center;
+}

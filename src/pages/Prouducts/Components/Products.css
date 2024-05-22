@@ -1,0 +1,61 @@
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    display: flex;
+      margin-left: 23px;
+  }
+  .teext-hero-bold  , .tt{
+    color: rgb(120, 73, 73);
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+    font-size:medium;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+
+  
+  }
+
+
+img 
+{
+  aspect-ratio: 250/180;
+width: 100%;
+height: 100%;
+
+}
+.products
+{
+  display: flex;
+  flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+    align-content: stretch;
+    justify-content: center;
+    padding-top: 30px;
+    margin-top: 160px;
+    margin-bottom: 120px;
+
+}
+ .bn {
+  font-family: inherit;
+  font-size: 18px;
+  color: rgb(145, 74, 74);
+  padding: 0.8em 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+
